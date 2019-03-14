@@ -28,3 +28,6 @@ module.exports = {
     //...
 
 ```
+
+### P.S.
+Version `v2` is not working
