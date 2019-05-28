@@ -1,6 +1,6 @@
 # Life game
 
-[Run online](https://drlenux.github.io/life-game/)
+[Demo online](https://drlenux.github.io/life-game/)
 
 ### build
 ```bash
