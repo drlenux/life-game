@@ -83,6 +83,16 @@ export class Map {
 
         let generation: number[] = [];
 
+        if (this.day % 10 == 0) {
+            for (let i = 0; i < Config.mapX; i++) {
+                for (let j = 0; j < Config.mapY; j++) {
+                    if (this.map[i][j] === Config.itemTypes.die) {
+                        this.map[i][j] = Config.itemTypes.zero;
+                    }
+                }
+            }
+        }
+
         for (let humanId = 0; humanId < this.humans.length; humanId++) {
             let human: Human = this.humans[humanId];
             let next: number = human.nextStep();

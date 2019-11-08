@@ -1,5 +1,7 @@
 # Life game
 
+[Demo online](https://drlenux.github.io/life-game/)
+
 ### build
 ```bash
 npm run build
